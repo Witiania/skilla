@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace app\Http\Controllers\Api\Session;
 
-use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 
 class SessionController extends Controller

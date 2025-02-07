@@ -1,7 +1,6 @@
 <?php
 
-use App\Http\Controllers\SessionController;
-use Illuminate\Http\Request;
+use app\Http\Controllers\Api\Session\SessionController;
 use Illuminate\Support\Facades\Route;
 use Laravel\Passport\Http\Controllers\AccessTokenController;
 use Laravel\Passport\Http\Controllers\AuthorizedAccessTokenController;
